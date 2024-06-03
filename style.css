@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input {
+	width: 100%;
+	border-radius: 30px;
+	background-color: #232323;
+	outline: 1px solid #767676;
+	/*  */
+	margin-bottom: 0;
+	color: #fff;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #1e1e1e;
+}
+.hero-section {
+	background: none;
+	color: #e1e1e1;
+	/*  */
+	padding: 50px 100px;
+}
+.hero-section .hero-title {
+	color: #e1e1e1;
+	text-align: left;
+	/*  */
+	margin-bottom: 50px;
+}
+.input-cont {
+	/* width: fit-content; */
+	/*  */
+	padding: 20px;
+	border: 1.4px dashed #6b6a6a;
+	border-radius: 10px;
+	/*  */
+	margin-bottom: 50px;
+}
+.input-cont .input {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.input-cont-1 .input-container {
+	position: relative;
+}
+.refresh {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.input-refresh-container-1,
+.input-refresh-container-2 {
+	position: relative;
+}
+
+.input-cont .input input::placeholder {
+	color: #e8e8e8;
+}
+.input-cont .input .input-container-1 input {
+	background: linear-gradient(to right, #638099, #6d848f);
+}
+.input-cont-2 .input input::placeholder {
+	text-align: center;
+}
+.input-cont-2 .input .input-container-1,
+.input-cont-2 .input .input-container-2 {
+	position: relative;
+}
+.input-cont-2 .input .input-container-1 div.mic,
+.input-cont-2 .input .input-container-2 div.mic {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.input-cont-2 .input .input-container-2 div.x {
+	background-color: #bfb8c7;
+	border-radius: 50%;
+	position: absolute;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	/*  */
+	display: grid;
+	place-content: center;
+}
+.input-cont-2 .input .input-container-2 div.x i {
+	font-size: 10px;
+	color: #796e88;
+}
+.input-cont-2 .input .input-container-1 input,
+.input-cont-2 .input .input-container-2 input {
+	padding-left: 40px;
+}
+.input-cont-2 .input .input-container-1 input::placeholder,
+.input-cont-2 .input .input-container-2 input::placeholder {
+	text-align: start;
+	color: #98abb8;
+	/* padding-left: 20px; */
+}
+.input-cont .input .input-container-2 input {
+	background: linear-gradient(to right, #638099, #6d848f, #72718c, #796d87);
+}
+
+.input-cont-3 .input-container {
+	position: relative;
+}
+.input-cont-3 .input-container input {
+	padding-left: 50px;
+}
+
+.search {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.input-cont-3 .input .input-container {
+	position: relative;
+}
+.input-cont-3 .input .input-container div.x {
+	background-color: #bfb8c7;
+	border-radius: 50%;
+	position: absolute;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	/*  */
+	display: grid;
+	place-content: center;
+}
+.input-cont-3 .input .input-container div.x i {
+	font-size: 10px;
+	color: #232323;
+}
+.input-cont-2 .input-container {
+	position: relative;
+}
+.input-cont-2 .input-container input {
+	padding-left: 60px;
+}
+div.aa-cont {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* Media query */
+@media only screen and (max-width: 769px) {
+	.hero-section {
+		padding: 50px 50px;
+	}
+	.hero-section .hero-title {
+		font-size: 36px;
+		margin-bottom: 40px;
+	}
+	.input-cont-2 .input-container input {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.hero-section {
+		padding: 50px 30px;
+	}
+	.hero-section .hero-title {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.input-cont-2 .input-container input {
+		padding-left: 44px;
+	}
+	.input-cont-3 .input-container input {
+		padding-left: 40px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.hero-section {
+		padding: 50px 20px;
+	}
+	.input-cont-2 .input-container input {
+		/* padding-left: 20px; */
+	}
+}
