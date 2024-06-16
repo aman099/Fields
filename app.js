@@ -18,15 +18,9 @@ refresh2.addEventListener("click", () => {
 	input2_2.focus();
 });
 
-const x1 = document.querySelector(
-	".input-cont-3 .input .input-container div.x-1"
-);
-const x2 = document.querySelector(
-	".input-cont-3 .input .input-container div.x-2"
-);
-const x3 = document.querySelector(
-	".input-cont-3 .input .input-container div.x-3"
-);
+const x1 = document.querySelector(".input-cont-3 .input .input-container .x-1");
+const x2 = document.querySelector(".input-cont-3 .input .input-container .x-2");
+const x3 = document.querySelector(".input-cont-3 .input .input-container .x-3");
 const searchInput1 = document.querySelector(".search-input-1");
 const searchInput2 = document.querySelector(".search-input-2");
 const searchInput3 = document.querySelector(".search-input-3");

@@ -61,6 +61,6 @@ input[type="range"]:disabled::-moz-range-thumb {
 /* Responsive adjustments */
 @media (max-width: 600px) {
 	header {
-		margin-bottom: 20px;
+		/* margin-bottom: 20px; */
 	}
 }

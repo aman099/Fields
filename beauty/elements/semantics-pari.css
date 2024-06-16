@@ -2,28 +2,28 @@
 body > header,
 body > main,
 body > footer {
-  width: 100%;
+	width: 100%;
 }
 
 section {
-  margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 }
 
 hr {
-  height: 0;
-  margin: 1rem 0;
-  border: 0;
-  border-top: 1px solid #e7eaf0;
-  color: inherit;
+	height: 0;
+	margin: 1rem 0;
+	border: 0;
+	border-top: 1px solid #e7eaf0;
+	color: inherit;
 }
 
 a {
-  text-decoration: none;
-  color: #0172ad;
+	text-decoration: none;
+	color: #0172ad;
 }
 
 ul {
-  padding-left: var(--ul-padding-left);
+	padding-left: var(--ul-padding-left);
 }
 
 /* nav ul{
